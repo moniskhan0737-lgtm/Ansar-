@@ -1,0 +1,6 @@
+{
+  "name": "AnsarAcademy",
+  "description": "Social Media Growth Mastery course app with Gemini AI assistant, interactive quiz, checkout, student dashboard with lesson search, and admin portal.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

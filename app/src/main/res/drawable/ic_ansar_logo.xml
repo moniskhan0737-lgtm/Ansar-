@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Circular Background Container -->
+    <path
+        android:pathData="M54,54m-48,0a48,48 0,1,1 96,0a48,48 0,1,1 -96,0">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:angle="315"
+                android:endX="102"
+                android:endY="102"
+                android:startX="6"
+                android:startY="6"
+                android:type="linear">
+                <item android:color="#FF241242" android:offset="0.0" />
+                <item android:color="#FF150D2E" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Outer Gradient Ring -->
+    <path
+        android:pathData="M54,54m-47,0a47,47 0,1,1 94,0a47,47 0,1,1 -94,0"
+        android:strokeWidth="3">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:angle="45"
+                android:endX="101"
+                android:endY="101"
+                android:startX="7"
+                android:startY="7"
+                android:type="linear">
+                <item android:color="#FFF43F5E" android:offset="0.0" />
+                <item android:color="#FFF59E0B" android:offset="0.5" />
+                <item android:color="#FF8B5CF6" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Academy Crown / Graduation Crest -->
+    <path
+        android:fillColor="#FFF59E0B"
+        android:pathData="M54,28 L72,36 L54,44 L36,36 Z" />
+    <path
+        android:fillColor="#FFFB7185"
+        android:pathData="M70,39.5 L70,48 C70,48 69,50 67,50 C65,50 64,48 64,48 L64,42.2 Z" />
+
+    <!-- Modern Bold Monogram "A" inside -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M44,48 L48,48 L54,64 L50,64 L48.8,60.5 L43.2,60.5 L42,64 L38,64 Z M44.2,57 L47.8,57 L46,51.8 Z" />
+    <!-- Second overlapping "A" for AnsarAcademy -->
+    <path
+        android:fillColor="#FFD0BCFF"
+        android:pathData="M60,48 L64,48 L70,64 L66,64 L64.8,60.5 L59.2,60.5 L58,64 L54,64 Z M60.2,57 L63.8,57 L62,51.8 Z" />
+
+    <!-- Upward Trend Star -->
+    <path
+        android:fillColor="#FFFDE68A"
+        android:pathData="M54,68 L56,73 L61,74 L57,78 L58,83 L54,80 L50,83 L51,78 L47,74 L52,73 Z" />
+</vector>
